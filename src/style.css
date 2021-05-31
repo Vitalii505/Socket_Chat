@@ -1,0 +1,83 @@
+body {
+  background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+  font-family: "Roboto", sans-serif;
+}
+
+.card-MS {
+  width: 500px;
+  border: none;
+  border-radius: 15px;
+}
+.card-MS-1 {
+  border-top-right-radius: 2% !important;
+  border-top-left-radius: 2% !important;
+}
+
+.adiv {
+  background: #04cb28;
+  border-radius: 15px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  font-size: 15px;
+  height: 46px;
+}
+
+.chat {
+  border: none;
+  background: #e2ffe8;
+  font-size: 15px;
+  border-radius: 20px;
+}
+
+.bg-white {
+  border: 1px solid #e7e7e9;
+  font-size: 15px;
+  border-radius: 20px;
+}
+
+.myvideo img {
+  border-radius: 20px;
+}
+
+.dot {
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 12px;
+  border: 1px solid #f0f0f0;
+  font-size: 8px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.form-control::placeholder {
+  font-size: 15px;
+  color: #c4c4c4;
+}
+
+.card-body {
+  width: 250px;
+  overflow: hidden !important;
+  overflow-y: scroll !important;
+}
+#div-massages {
+  height: 400px;
+  overflow: hidden !important;
+  overflow-y: scroll !important;
+}
+.user_name_text {
+  font-weight: bold;
+}
+#registration_div {
+  background-color: rgba(8, 15, 19, 0.651);
+  padding: 10px;
+  margin-bottom: -35px !important;
+  border-radius: 5px;
+}
+.text-reg {
+  color: rgb(194, 148, 148);
+  text-align: center;
+}
