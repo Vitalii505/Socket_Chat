@@ -1,0 +1,16 @@
+1) npm install typescript --save-dev
+2) npm install parcel parcel-bundler --save-dev
+3) npx parcel src/index.html
+
+package.json
+
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "prebuild": "rimraf ./dist",
+    "build": "parcel build src/index.html --public-url ./"
+  },
+
+npm run build
+
+ npm i rimraf --save-dev - удаляет папки
